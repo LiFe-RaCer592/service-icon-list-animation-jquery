@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Service Icon Front START*/
+.service-icon-section{
+    width: 100%;
+}
+.service-icon-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.service-icon-list{
+    display: flex;
+}
+.service-icon{
+    width: 15%;
+    margin: 40px;
+    -webkit-transition: width .2s ease;
+    -o-transition: ease .2s width;
+    -moz-transition: ease .2s width;
+    transition: width .2s ease;
+}
+.service-icon-front{
+    /* padding: 15px; */
+    text-align: center;
+}
+.service-icon-image img{
+    width: auto;
+}
+.service-icon-title{
+    margin-top: 20px;
+}
+/*Service Icon Front END*/
+
+
+.service-icon-toggle {
+	cursor: hand;
+}
+
+.service-icon-toggle:hover {
+	cursor: pointer;
+}
+/*Service Icon Back START*/
+.service-icon-back-1, .service-icon-back-2, .service-icon-back-3, .service-icon-back-4, .service-icon-back-5{
+    display: none;
+}
+.service-icon-title h3{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #101010;
+}
+.service-icon-description{
+    font-size: 16px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+color: #101010;
+}
+/*Service Icon Back END*/
+.toggle-back{
+    display: block;
+}
+
+.service-icon-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 350px;
+    top: 0;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-icon-link{
+    font-size: 14px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+color: #0A64BC;
+}
